@@ -12,6 +12,7 @@ Training: false
 feature map을 추출할 때 사용하는 backbone 모델은 보통 classification을 수행하기 때문에 low resolution 이미지를 사용하여도 되었으나 object detection을 위해서는 high resolution 이미지를 사용하는 것이 적합하기 때문에 $224 \times 244$의 이미지를 사용하던 네트워크를 $448 \times 448$로 fine tuning하였다.
 #### 1.1.3. Convolutional With Anchor Box
 ![[YOLOv2_Structure.png]]
+
 [[Fully Connected Layer]]를 [[Convolutional Layer]]로 대체하였으며 원본 이미지를 $S \times S$의 grid로 나눈 뒤 각 grid cell별로 5개의 anchor box를 예측한다. output tensor는 각 anchor box에 대한 $(x, y, w, h)$와 각 class에 대한 probability를 포함한다.
 #### 1.1.4. Dimension Clusters
 [[Faster R-CNN]]에서는 anchor box의 ratio와 size를 미리 정해주었는데, YOLO v2에서는 [[K-means Clustering]]을 통해 ground truth와 유사한 optimal anchor box를 탐색하였다. 이때 euclidian 거리 대신 IoU를 기준으로 clustering하는데, 이는 bounding box의 중심 거리와 높이, 너비 등을 모두 고려하기 위함이다.
