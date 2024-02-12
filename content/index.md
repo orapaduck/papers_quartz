@@ -1,6 +1,9 @@
 # Welcome to My Digital Garden 
 <!-- 🌱 -->
-![[banner_erased.png|600]]
+<!-- ![[banner_erased.png|600]] -->
+<p align="center">
+  <img src="/banner_erased.png" width="600">
+</p>
 Hello and welcome to my digital garden! This is a space where ideas grow and flourish, much like plants in a garden. Here, you'll find a collection of thoughts, learnings, and musings across various topics that fascinate me.
 
 ## What is a Digital Garden?
