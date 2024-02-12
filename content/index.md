@@ -4,7 +4,7 @@
 Hello and welcome to my digital garden! This is a space where ideas grow and flourish, much like plants in a garden. Here, you'll find a collection of thoughts, learnings, and musings across various topics that fascinate me.
 
 ## What is a Digital Garden?
-
+![aa-1.png]
 A digital garden is a metaphor for thinking about writing and creating that focuses less on the final product and more on the process of growth and cultivation. Unlike a blog, where articles are often polished and complete, a digital garden is a space of exploration, cultivation, and continuous evolution.
 
 ## What You'll Find Here
