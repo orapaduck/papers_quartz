@@ -6,5 +6,6 @@
 4. NMDAR의 이온 채널은 Mg 또는 Zn ion에 의해 막혀있지만 이러한 역발화로 인한 막 전위 상승으로 이온이 분리되면서 채널이 개방된다.
 
 ![[NMDA_Recepter_Mg_Block.png|400]]
+
 5. NMDAR의 개방으로 인해 $\mathrm{Na^{+}}$, $\mathrm{Ca^{2+}}$ 등이 유입되고 이러한 Ca ion은 다양한 단백질의 활성을 매개한다.
  그중에는 AMPAR의 인산화나 trafficking 같이 시냅스의 효율을 강화시키는 과정이 포함된다.
