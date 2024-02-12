@@ -1,6 +1,4 @@
 # Welcome to My Digital Garden 
-<!-- 🌱 -->
-<!-- ![[banner_erased.png|600]] -->
 <p align="center" style="margin: 0;padding: 0;height: fit-content;">
   <img src="/banner_erased.png" width="600" style="margin: 0;padding: 0">
 </p>
