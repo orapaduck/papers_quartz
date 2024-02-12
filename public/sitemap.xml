@@ -1,121 +1,337 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/advanced/architecture</loc>
-    <lastmod>2024-02-12T04:47:10.648Z</lastmod>
+    <loc>https://cloudier.netlify.app/Affine-Transformation</loc>
+    <lastmod>2024-02-11T22:00:21.816Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/advanced/creating-components</loc>
-    <lastmod>2024-02-12T04:47:10.649Z</lastmod>
+    <loc>https://cloudier.netlify.app/Inductive-Bias</loc>
+    <lastmod>2024-02-11T22:00:21.821Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/advanced/</loc>
-    <lastmod>2024-02-12T04:47:10.650Z</lastmod>
+    <loc>https://cloudier.netlify.app/K-means-Clustering</loc>
+    <lastmod>2024-02-11T22:00:21.824Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/advanced/making-plugins</loc>
-    <lastmod>2024-02-12T04:47:10.650Z</lastmod>
+    <loc>https://cloudier.netlify.app/Manim/%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8</loc>
+    <lastmod>2024-02-11T22:00:21.847Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/advanced/paths</loc>
-    <lastmod>2024-02-12T04:47:10.652Z</lastmod>
+    <loc>https://cloudier.netlify.app/Manim/%EC%82%AC%EC%9A%A9%EB%B2%95</loc>
+    <lastmod>2024-02-11T22:00:21.849Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/authoring-content</loc>
-    <lastmod>2024-02-12T04:47:10.653Z</lastmod>
+    <loc>https://cloudier.netlify.app/Softmax</loc>
+    <lastmod>2024-02-11T22:00:21.834Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/build</loc>
-    <lastmod>2024-02-12T04:47:10.653Z</lastmod>
+    <loc>https://cloudier.netlify.app/Templates/model</loc>
+    <lastmod>2024-02-11T22:00:21.870Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/configuration</loc>
-    <lastmod>2024-02-12T04:47:10.654Z</lastmod>
+    <loc>https://cloudier.netlify.app/Words</loc>
+    <lastmod>2024-02-11T22:00:21.838Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/Docker-Support</loc>
-    <lastmod>2024-02-12T04:47:10.656Z</lastmod>
+    <loc>https://cloudier.netlify.app/</loc>
+    <lastmod>2024-02-12T02:44:52.459Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/Latex</loc>
-    <lastmod>2024-02-12T04:47:10.657Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/Scanner-CNN</loc>
+    <lastmod>2024-02-11T22:00:21.883Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/Mermaid-diagrams</loc>
-    <lastmod>2024-02-12T04:47:10.658Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/parameter-optimization-to-Weber's-problem</loc>
+    <lastmod>2024-02-11T22:00:21.880Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/Obsidian-compatibility</loc>
-    <lastmod>2024-02-12T04:47:10.659Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/%EC%A3%BC%EC%A0%9C</loc>
+    <lastmod>2024-02-11T22:00:21.885Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/OxHugo-compatibility</loc>
-    <lastmod>2024-02-12T04:47:10.660Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EB%AC%B4%EC%A0%9C-%ED%8C%8C%EC%9D%BC</loc>
+    <lastmod>2024-02-12T04:03:29.620Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/RSS-Feed</loc>
-    <lastmod>2024-02-12T04:47:10.661Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EB%B0%B1%EC%A4%80/%EB%AA%BB-%ED%91%BC-%EB%AC%B8%EC%A0%9C</loc>
+    <lastmod>2024-02-11T22:00:21.900Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/SPA-Routing</loc>
-    <lastmod>2024-02-12T04:47:10.662Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Cognitive-Science/Cognitive-Psychology/%EC%A3%BC%EC%9D%98(attention)</loc>
+    <lastmod>2024-02-11T22:00:21.947Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/backlinks</loc>
-    <lastmod>2024-02-12T04:47:10.662Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Actin</loc>
+    <lastmod>2024-02-11T22:00:21.959Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/breadcrumbs</loc>
-    <lastmod>2024-02-12T04:47:10.663Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Cell-Division</loc>
+    <lastmod>2024-02-11T22:00:21.961Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/callouts</loc>
-    <lastmod>2024-02-12T04:47:10.663Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Differentiation</loc>
+    <lastmod>2024-02-11T22:00:21.964Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/darkmode</loc>
-    <lastmod>2024-02-12T04:47:10.664Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Initiate-Embryonic-Development</loc>
+    <lastmod>2024-02-11T22:00:21.967Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/explorer</loc>
-    <lastmod>2024-02-12T04:47:10.665Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Model-Organism</loc>
+    <lastmod>2024-02-11T22:00:21.969Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/folder-and-tag-listings</loc>
-    <lastmod>2024-02-12T04:47:10.666Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Developmental-Biology/Vanishing-Twin</loc>
+    <lastmod>2024-02-11T22:00:21.972Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/full-text-search</loc>
-    <lastmod>2024-02-12T04:47:10.666Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/CRISPR-Cas9</loc>
+    <lastmod>2024-02-11T22:00:22.001Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/graph-view</loc>
-    <lastmod>2024-02-12T04:47:10.667Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/Gene-Expression</loc>
+    <lastmod>2024-02-11T22:00:22.003Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/i18n</loc>
-    <lastmod>2024-02-12T04:47:10.668Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/Post-Transcriptional-Modification</loc>
+    <lastmod>2024-02-11T22:00:22.005Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/</loc>
-    <lastmod>2024-02-12T04:47:10.669Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/Regulation-of-Gene-Expression</loc>
+    <lastmod>2024-02-11T22:00:22.007Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/popover-previews</loc>
-    <lastmod>2024-02-12T04:47:10.670Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/Regulation-of-Transcription-Initiation</loc>
+    <lastmod>2024-02-11T22:00:22.009Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/private-pages</loc>
-    <lastmod>2024-02-12T04:47:10.671Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Molecular-Biology/tRNA</loc>
+    <lastmod>2024-02-11T22:00:22.011Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/recent-notes</loc>
-    <lastmod>2024-02-12T04:47:10.672Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Action-Potential</loc>
+    <lastmod>2024-02-11T22:00:22.022Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/syntax-highlighting</loc>
-    <lastmod>2024-02-12T04:47:10.674Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Common-Spatial-Pattern</loc>
+    <lastmod>2024-02-11T22:00:22.024Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/table-of-contents</loc>
-    <lastmod>2024-02-12T04:47:10.674Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Lateral-Inhibition</loc>
+    <lastmod>2024-02-11T22:00:22.026Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/features/wikilinks</loc>
-    <lastmod>2024-02-12T04:47:10.677Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Long-Term-Potentiation</loc>
+    <lastmod>2024-02-11T22:00:22.029Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/hosting</loc>
-    <lastmod>2024-02-12T04:47:10.678Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Morphological-Change</loc>
+    <lastmod>2024-02-11T22:00:22.031Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2024-02-12T04:47:10.689Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Neuron</loc>
+    <lastmod>2024-02-11T22:00:22.032Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/layout</loc>
-    <lastmod>2024-02-12T04:47:10.690Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/Nucleus</loc>
+    <lastmod>2024-02-11T22:00:22.034Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/migrating-from-Quartz-3</loc>
-    <lastmod>2024-02-12T04:47:10.691Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/Neuroscience/%EB%B6%84%EC%84%9D-%EB%8B%A8%EA%B3%84</loc>
+    <lastmod>2024-02-11T22:00:22.036Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/philosophy</loc>
-    <lastmod>2024-02-12T04:47:10.692Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%83%9D%EB%AA%85%EA%B3%BC%ED%95%99/%ED%91%9C%EA%B8%B0%EB%B2%95</loc>
+    <lastmod>2024-02-11T22:00:21.909Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/setting-up-your-GitHub-repository</loc>
-    <lastmod>2024-02-12T04:47:10.692Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%88%98%ED%95%99/Gram-Shmidt-Process</loc>
+    <lastmod>2024-02-11T22:00:21.395Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/showcase</loc>
-    <lastmod>2024-02-12T04:47:10.694Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%88%98%ED%95%99/Jacobian</loc>
+    <lastmod>2024-02-11T22:00:21.398Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/tags/component</loc>
-    <lastmod>2024-02-12T04:47:10.695Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%88%98%ED%95%99/Logit</loc>
+    <lastmod>2024-02-11T22:00:21.400Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/upgrading</loc>
-    <lastmod>2024-02-12T04:47:10.696Z</lastmod>
+    <loc>https://cloudier.netlify.app/%EC%88%98%ED%95%99/Taylor-Expansion</loc>
+    <lastmod>2024-02-11T22:00:21.402Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%88%98%ED%95%99/Weber-Problem</loc>
+    <lastmod>2024-02-11T22:00:21.404Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%98%81%EC%96%B4/%EB%AA%A8%EB%A5%B4%EB%8A%94-%EB%8B%A8%EC%96%B4</loc>
+    <lastmod>2024-02-11T22:00:21.423Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Algorithm/Dynamic-Time-Warping</loc>
+    <lastmod>2024-02-11T22:00:21.438Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Algorithm/Kalman-Filter</loc>
+    <lastmod>2024-02-11T22:00:21.441Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Anaconda</loc>
+    <lastmod>2024-02-11T22:00:21.431Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Data-Structure/Binary-Indexed-Tree</loc>
+    <lastmod>2024-02-11T22:00:21.463Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Data-Structure/k-d-Tree</loc>
+    <lastmod>2024-02-11T22:00:21.465Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Dimension-Reduction/Linear-Discriminant-Analysis</loc>
+    <lastmod>2024-02-11T22:00:21.482Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Dimension-Reduction/Principal-Component-Analysis</loc>
+    <lastmod>2024-02-11T22:00:21.484Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Dimension-Reduction/t-distributed-Stochastic-Neighbor-Embedding</loc>
+    <lastmod>2024-02-11T22:00:21.485Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Attention</loc>
+    <lastmod>2024-02-11T22:00:21.506Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Convolutional-Layer</loc>
+    <lastmod>2024-02-11T22:00:21.508Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Encoder-and-Decoder</loc>
+    <lastmod>2024-02-11T22:00:21.510Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Feed-Forward-Network</loc>
+    <lastmod>2024-02-11T22:00:21.511Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Flatten-Layer</loc>
+    <lastmod>2024-02-11T22:00:21.513Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Fully-Connected-Layer</loc>
+    <lastmod>2024-02-11T22:00:21.516Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Global-Average-Pooling</loc>
+    <lastmod>2024-02-11T22:00:21.518Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Logistic-Regression</loc>
+    <lastmod>2024-02-11T22:00:21.520Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Pooling</loc>
+    <lastmod>2024-02-11T22:00:21.522Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Skip-Connection</loc>
+    <lastmod>2024-02-11T22:00:21.524Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Architecture/Spatial-Pyramid-Pooling</loc>
+    <lastmod>2024-02-11T22:00:21.526Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Auto-Differentiation</loc>
+    <lastmod>2024-02-11T22:00:21.495Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Bounding-Box-Regression</loc>
+    <lastmod>2024-02-11T22:00:21.535Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Data-Augmentation</loc>
+    <lastmod>2024-02-11T22:00:21.537Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Evaluation</loc>
+    <lastmod>2024-02-11T22:00:21.539Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Non-Maximum-Suppression</loc>
+    <lastmod>2024-02-11T22:00:21.541Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Region-Proposal/Selective-Search</loc>
+    <lastmod>2024-02-11T22:00:21.611Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/Region-Proposal/Sliding-Window</loc>
+    <lastmod>2024-02-11T22:00:21.612Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/AlexNet</loc>
+    <lastmod>2024-02-11T22:00:21.547Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/GoogLeNet</loc>
+    <lastmod>2024-02-11T22:00:21.549Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/R-CNN/Fast-R-CNN</loc>
+    <lastmod>2024-02-11T22:00:21.584Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/R-CNN/Faster-R-CNN</loc>
+    <lastmod>2024-02-11T22:00:21.587Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/R-CNN/R-CNN</loc>
+    <lastmod>2024-02-11T22:00:21.588Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/ResNet</loc>
+    <lastmod>2024-02-11T22:00:21.551Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/SPPnet</loc>
+    <lastmod>2024-02-11T22:00:21.553Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/VGGNet</loc>
+    <lastmod>2024-02-11T22:00:21.555Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/ViT</loc>
+    <lastmod>2024-02-11T22:00:21.556Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/YOLO/YOLOv1</loc>
+    <lastmod>2024-02-11T22:00:21.599Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Computer-Vision/model/YOLO/YOLOv2</loc>
+    <lastmod>2024-02-11T22:00:21.601Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Curse-of-Dimentionality</loc>
+    <lastmod>2024-02-11T22:00:21.497Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Batch</loc>
+    <lastmod>2024-02-11T22:00:21.631Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Early-Stopping</loc>
+    <lastmod>2024-02-11T22:00:21.632Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Ensemble</loc>
+    <lastmod>2024-02-11T22:00:21.634Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Hard-Negative-Mining</loc>
+    <lastmod>2024-02-11T22:00:21.635Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Normalization</loc>
+    <lastmod>2024-02-11T22:00:21.637Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Optimizer</loc>
+    <lastmod>2024-02-11T22:00:21.638Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Regularization</loc>
+    <lastmod>2024-02-11T22:00:21.640Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Learning-Strategy/Teacher-Forcing</loc>
+    <lastmod>2024-02-11T22:00:21.642Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Method/Kernel-Method</loc>
+    <lastmod>2024-02-11T22:00:21.650Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Method/Positional-Encoding</loc>
+    <lastmod>2024-02-11T22:00:21.651Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/CoVe</loc>
+    <lastmod>2024-02-11T22:00:21.682Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/Deep-Passage-Retrieval</loc>
+    <lastmod>2024-02-11T22:00:21.683Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/Word-Embedding</loc>
+    <lastmod>2024-02-11T22:00:21.687Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/model/BERT</loc>
+    <lastmod>2024-02-11T22:00:21.694Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/model/ELMo</loc>
+    <lastmod>2024-02-11T22:00:21.696Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/model/GPT/GPT</loc>
+    <lastmod>2024-02-11T22:00:21.705Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/model/Transformer</loc>
+    <lastmod>2024-02-11T22:00:21.698Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Natural-Language-Processing/pretrained-word-vector</loc>
+    <lastmod>2024-02-11T22:00:21.685Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Validation/Holdout-Cross-Validation</loc>
+    <lastmod>2024-02-11T22:00:21.727Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/Validation/K-Fold-Cross-Validation</loc>
+    <lastmod>2024-02-11T22:00:21.729Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Adaline</loc>
+    <lastmod>2024-02-11T22:00:21.661Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Decision-Tree</loc>
+    <lastmod>2024-02-11T22:00:21.663Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/K-Nearest-Neighbor</loc>
+    <lastmod>2024-02-11T22:00:21.665Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Kernel-Support-Vector-Machine</loc>
+    <lastmod>2024-02-11T22:00:21.667Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Long-Short-Term-Memory</loc>
+    <lastmod>2024-02-11T22:00:21.669Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Perceptron</loc>
+    <lastmod>2024-02-11T22:00:21.671Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/model/Support-Vector-Machine</loc>
+    <lastmod>2024-02-11T22:00:21.673Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Machine-Learning/%EC%9E%90%EB%A3%8C</loc>
+    <lastmod>2024-02-11T22:00:21.499Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Pre-Processing/Whitening-Transform</loc>
+    <lastmod>2024-02-11T22:00:21.740Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%ED%99%94%ED%95%99/Conjugation</loc>
+    <lastmod>2024-02-11T22:00:21.808Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%ED%99%94%ED%95%99/Electrocyclic-reaction</loc>
+    <lastmod>2024-02-11T22:00:21.810Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%ED%99%94%ED%95%99/%EA%B0%9C%EC%9D%B8-%EA%B3%B5%EB%B6%80</loc>
+    <lastmod>2024-02-11T22:00:21.812Z</lastmod>
   </url></urlset>
