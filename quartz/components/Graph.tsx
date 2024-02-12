@@ -58,7 +58,15 @@ export default ((opts?: GraphOptions) => {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     if (fileData.frontmatter?.title=="index") {
-      return null
+      return (
+        <div class={classNames(displayClass, "graph")}>
+          <h3>{i18n(cfg.locale).components.graph.title}</h3>
+          <div class="graph-outer">
+            <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          </div>
+        </div>
+      )
+
     }
     return (
       <div class={classNames(displayClass, "graph")}>
