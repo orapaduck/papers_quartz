@@ -68,7 +68,7 @@ Component.Graph({
     depth: -1,
     scale: 0.9,
     repelForce: 0.001,
-    centerForce: 1,
+    centerForce: 100,
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
