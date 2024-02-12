@@ -21,8 +21,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     const text = fileData.text
-
-    if (text) {
+    if (fileData.frontmatter?.title=="index") {
+      return null
+    } else if (text) {
       const segments: string[] = []
 
       if (fileData.dates) {
