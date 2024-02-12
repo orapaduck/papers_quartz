@@ -1,16 +1,37 @@
-# Welcome! 🌱
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+# Welcome to My Digital Garden 🌱
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+Hello and welcome to my digital garden! This is a space where ideas grow and flourish, much like plants in a garden. Here, you'll find a collection of thoughts, learnings, and musings across various topics that fascinate me.
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+## What is a Digital Garden?
 
+A digital garden is a metaphor for thinking about writing and creating that focuses less on the final product and more on the process of growth and cultivation. Unlike a blog, where articles are often polished and complete, a digital garden is a space of exploration, cultivation, and continuous evolution.
+
+## What You'll Find Here
+
+- **Thoughts in Progress**: Ideas and concepts that I'm currently exploring. These are ever-evolving and updated as I learn more.
+- **Personal Reflections**: Insights into my personal journey, including successes, challenges, and everything in-between.
+- **Curated Resources**: Collections of books, articles, and other resources that have significantly impacted my thinking.
+- **Project Showcase**: A glimpse into the projects I'm working on, both personal and professional.
+
+## Navigating the Garden
+
+Feel free to wander through the different sections of my garden. You'll notice that some ideas are more developed than others, much like how some plants are more mature than their neighbors. This garden is an organic, ever-changing space, so expect regular updates and new growth.
+
+## Join the Conversation
+
+Your thoughts and feedback are valuable fertilizers for this garden. Feel free to reach out if something resonates with you or if you have insights to share. Let's cultivate this space together!
+
+Thank you for visiting, and I hope you enjoy exploring as much as I enjoy cultivating!
+
+---
 <strong>Recently updated notes</strong>
+<ul>
+  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+  {% for note in recent_notes limit: 5 %}
+    <li>
+      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+    </li>
+  {% endfor %}
+</ul> 
 
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+_This digital garden is tended with care and curiosity by [Your Name]._
