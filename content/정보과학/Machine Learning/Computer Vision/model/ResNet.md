@@ -5,6 +5,7 @@ Architecture: true
 Training: false
 ---
 DNN에서의 vanishing gradient 및 degradation problem을 해결하기 위한 방안으로 [[Skip Connection]]을 제시하였다.
+
 ![[Residual_Block.png|400]]
 ## 1. Architecture
 ### 1.1. [[Fully Connected Layer]]
