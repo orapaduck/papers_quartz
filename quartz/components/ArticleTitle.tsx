@@ -3,7 +3,10 @@ import { classNames } from "../util/lang"
 
 function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
   const title = fileData.frontmatter?.title
-  if (title) {
+  if (title=="index.md") {
+    return null
+  }
+  else if (title) {
     return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
   } else {
     return null
