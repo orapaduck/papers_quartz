@@ -17,21 +17,8 @@ A digital garden is a metaphor for thinking about writing and creating that focu
 
 Feel free to wander through the different sections of my garden. You'll notice that some ideas are more developed than others, much like how some plants are more mature than their neighbors. This garden is an organic, ever-changing space, so expect regular updates and new growth.
 
-## Join the Conversation
-
-Your thoughts and feedback are valuable fertilizers for this garden. Feel free to reach out if something resonates with you or if you have insights to share. Let's cultivate this space together!
-
-Thank you for visiting, and I hope you enjoy exploring as much as I enjoy cultivating!
+<!-- ## Join the Conversation -->
 
 ---
-<strong>Recently updated notes</strong>
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul> 
 
-_This digital garden is tended with care and curiosity by [Your Name]._
+_This digital garden is tended with care and curiosity of me._
