@@ -1,4 +1,5 @@
-# Welcome to My Digital Garden 🌱
+# Welcome to My Digital Garden 
+<!-- 🌱 -->
 
 Hello and welcome to my digital garden! This is a space where ideas grow and flourish, much like plants in a garden. Here, you'll find a collection of thoughts, learnings, and musings across various topics that fascinate me.
 
