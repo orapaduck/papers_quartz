@@ -1,6 +1,8 @@
 ## Post-Transcriptional Modification
 ### 1. 5' capping
-$$\mathrm{m^7Gppp + pppNp \to m^7Gp + ppNp \to m^7GpppNp}$$
+$$
+\mathrm{m^7Gppp + pppNp \to m^7Gp + ppNp \to m^7GpppNp}
+$$
 5' 말단에 7-메틸구아닌 뉴클레오타이드가 첨가되어 5'→3' exonuclease가 작용하지 못하도록 한다.
 핵공 복합체가 특이적으로 인식하여 세포질로 이동시킨다.
 5'-cap binding protein이 5'-말단의 cap에 결합한다.

@@ -1,7 +1,9 @@
 일반적으로 CNN에서는 필터들이 convolution을 수행하기 때문에 layer가 깊어질수록 채널의 수가 많아지고 이미지의 너비와 높이가 줄어든다. VGGNet은 이러한 문제점을 해결하기 위해 3x3 필터를 사용하여 layer의 깊이를 늘렸다. 하지만 parameter의 개수가 매우 많았고 layer가 깊어질수록 오차율이 증가하는 문제가 있어 이를 해결하기 위한 방법으로 residual learning가 제안 되었다[1].
 ## Skip Connection
 실제로 학습 시키고자 하는 mapping을 $H(x)$라고 하면, 이를 학습 시키는 것은 어려우므로 residual block을 통해 $H(x)=F(x)-x$의 형태로 변형하여 학습에 용이한 $F(x)$를 사용한다. skip connection 사이에는 여러 개의 activation function이 존재할 수 있으며 convolution으로 인한 차원 감소는 $W_{s}$를 이용한 linear projection을 통해 해결한다.
-$$F(x)=H(x) + x=F(x, \{W_{i}\}) +W_{s}x$$
+$$
+F(x)=H(x) + x=F(x, \{W_{i}\}) +W_{s}x
+$$
 ## 해석
 원 논문에서는 residual block에 의한 결과를 경험적으로 얻었다고 말하였다[1]. 이에 따라 ResNet이 왜 잘 작동하는지 설명하려는 많은 노력이 있었다.
 ### 1. [[Ensemble]]

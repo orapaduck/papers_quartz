@@ -8,9 +8,13 @@ CNN은 이미지와 관련된 작업을 매우 잘 수행하는데, 이는 대�
 
 ## 1. Discrete Convolution
 두 개의 벡터 $x$, $w$에 대한 discrete convolution은 $y=x*w$와 같이 나타낸다. 여기서 $x$는 입력, $w$는 kernel이다. 1차원에서 discrete convolution의 정의는 다음과 같다.
-$$y=x*w \to y[i]=\sum_{k=0}^{m-1} x[i+m-k]w[k]$$
+$$
+y=x*w \to y[i]=\sum_{k=0}^{m-1} x[i+m-k]w[k]
+$$
 여기서 $x$와 $w$의 indexing이 반대 방향이기 때문에 입력 또는 kernel을 뒤집어 내적을 수행한다. 이를 2차원으로 확장하면 다음과 같이 표현할 수 있다.
-$$Y=X*W \to Y[i,~j]=\sum_{k_{1}=0}^{m_{1}-1}\sum_{k_{2}=0}^{m_{2}-1} X[i+m_{1}-k_{1},~i+m_{2}-k_{2}]W[k_{1}, k_{2}]$$
+$$
+Y=X*W \to Y[i,~j]=\sum_{k_{1}=0}^{m_{1}-1}\sum_{k_{2}=0}^{m_{2}-1} X[i+m_{1}-k_{1},~i+m_{2}-k_{2}]W[k_{1}, k_{2}]
+$$
 ### 1.1. 1x1 Convolution
 각 pixel에 대해 곱셈을 수행한 뒤 모두 더하기 때문에, 채널 간의 weighted sum과 같다.
 ## 2. Kernel

@@ -47,7 +47,9 @@ $$
 3. 이후 large subunit이 결합해 Elongation phase가 시작된다.
 #### Elongation
 1. EF-Tu-GTP가 AA-tRNA를 A site에 결합시키고 23s rRNa의 peptidyl transferase 활성에 의해 peptidyl-tRNA의 polypeptide에 AA가 첨가된다.
-$$ \mathrm{EF－Tu－GTP\to EF－Tu－GDP}$$
+$$
+\mathrm{EF－Tu－GTP\to EF－Tu－GDP}
+$$
 2. EF-Ts가 EF-Tu의 GDP와 치환되고 이는 다시 GTP와 치환된다.
 $$
 \begin{gathered}
@@ -55,7 +57,9 @@ $$
 \end{gathered}
 $$
 3. EF-G가 GTP를 소모하여 mRNA와 AA-tRNA를 한 코돈 만큼 이동 시킨다.
-$$ \mathrm{EF－G－GTP \to EF－G-GDP + P_{i}}$$
+$$
+\mathrm{EF－G－GTP \to EF－G-GDP + P_{i}}
+$$
 #### Termination
 1. 종결코돈(UGA, UAG, UAA) 등에 도달하면 Releasing Factor가 결합해 23s rRNA의 peptidyl transferase 활성을 조절하여 아미노산 대신 물을 첨가하여 peptidyl-tRNA의 에스터 결합을 가수분해하도록 한다.
 ##### Exception

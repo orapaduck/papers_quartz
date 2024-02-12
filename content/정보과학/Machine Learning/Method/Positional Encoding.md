@@ -24,16 +24,18 @@ PE_{pos, i} = \left[
 \right]\\
 \end{gathered}
 $$
-$$\begin{gathered}
+$$
+\begin{gathered}
 PE_{pos+k, i} = \left[
 \sin\left( (pos+k) \cdot \omega_{i} \right),
 \cos\left( (pos+k) \cdot \omega_{i} \right),
-\right]\\
-
+\right]
 \end{gathered}
 $$
 $PE_{pos+k}$를 자세히 보면 $\omega_{0}, \omega_{1}, \omega_{2} \dots$일 때 각각 $k\cdot \omega_{i}$만큼 회전 변환 해주었음을 알 수 있다. 따라서 $PE_{pos+k}$는 다음과 같이 나타낼 수 있다.
-$$T(k)\cdot PE_{pos}=PE_{pos+k}$$
+$$
+T(k)\cdot PE_{pos}=PE_{pos+k}
+$$
 $$
 \begin{gathered}
 M(k)_{i} = \begin{pmatrix}
@@ -42,7 +44,8 @@ M(k)_{i} = \begin{pmatrix}
 \end{pmatrix}
 \end{gathered}
 $$
-$$T(k)=
+$$
+T(k)=
 \begin{pmatrix}
 \begin{pmatrix}
 \cos(k\cdot \omega_{0}) & \sin(k\cdot \omega_{0}) \\
@@ -53,6 +56,7 @@ $$T(k)=
 \cos(k\cdot \omega_{d_{model}/2}) & \sin(k\cdot \omega_{d_{model}/2}) \\
 -\sin(k\cdot \omega_{d_{model}/2}) & \cos(k\cdot \omega_{d_{model}/2})   \\
 \end{pmatrix}\\
-\end{pmatrix}$$
+\end{pmatrix}
+$$
 따라서 sinusoidal positional encoding은 문장 내에서 상대적인 위치 정보를 벡터의 회전을 통해 저장하고 있다고 할 수 있다.
 ![[정보과학/실습/Sinusoidal Positional Encoding.py]]
