@@ -35,7 +35,7 @@ const defaultOptions: GraphOptions = {
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
   globalGraph: {
@@ -48,7 +48,7 @@ const defaultOptions: GraphOptions = {
     linkDistance: 100,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
 }
