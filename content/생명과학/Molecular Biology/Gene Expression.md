@@ -39,17 +39,21 @@ Prokaryotic Cell의 RNA Polymerase는 core enzyme($\alpha_{2} \beta \beta' \omeg
 | IF $\mathrm{III}$ | tRNA가 결합하기 전 large subunit과 small subunit의 결합을 방지 |
 1. small subunit의 16s rRNA가 DNA에 Shine-Dalgarno Sequence에 특이적으로 결합한다.
 2. 전사 개시 과정에서는 개시코돈 AUG에 상보적인 Met가 아닌 $\mathrm{fMet-tRNA^fMet}$가 P site에 결합한다.
-$$\begin{gathered}
+$$
+\begin{gathered}
 \mathrm{Met-tRNA\;formyltransferase}\\\mathrm{Met-tRNA^fMet + formyl-tetrahydrofolate +   \to fMet-tRNA^fMet + tetrahydrofolate}
-\end{gathered}$$
+\end{gathered}
+$$
 3. 이후 large subunit이 결합해 Elongation phase가 시작된다.
 #### Elongation
 1. EF-Tu-GTP가 AA-tRNA를 A site에 결합시키고 23s rRNa의 peptidyl transferase 활성에 의해 peptidyl-tRNA의 polypeptide에 AA가 첨가된다.
 $$ \mathrm{EF－Tu－GTP\to EF－Tu－GDP}$$
 2. EF-Ts가 EF-Tu의 GDP와 치환되고 이는 다시 GTP와 치환된다.
-$$\begin{gathered}
+$$
+\begin{gathered}
 \mathrm{EF－Tu－GDP\to EF－Tu－EF－Ts \to EF－Tu－GTP}
-\end{gathered}$$
+\end{gathered}
+$$
 3. EF-G가 GTP를 소모하여 mRNA와 AA-tRNA를 한 코돈 만큼 이동 시킨다.
 $$ \mathrm{EF－G－GTP \to EF－G-GDP + P_{i}}$$
 #### Termination

@@ -8,13 +8,17 @@ $$
 \end{align*}
 $$
 regression의 목적은 region proposal한 bounding box를 ground truth로 보정하는 것이므로 target은 다음과 같이 쓸 수 있다.
-$$\begin{align}
+$$
+\begin{align}
 t_{x}&=\frac{G_{x}-P_{x}}{P_{w}} \\
 t_{y}&=\frac{G_{y}-P_{y}}{P_{h}} \\
 t_{w}&=\log\left( \frac{\hat{G}_{w}}{P_{w}} \right)\\
 t_{h}&=\log\left( \frac{\hat{G}_{h}}{P_{h}} \right)\\
-\end{align}$$
+\end{align}
+$$
 따라서 loss function($J$)는 다음과 같다.
-$$\begin{align}
+$$
+\begin{align}
 \sum_{i \in {x,y,w,h}}(t_{i}-d_{i}(P^\prime))^{2}+\lambda ||w||^{2}
-\end{align}$$
+\end{align}
+$$

@@ -15,10 +15,12 @@ k\&-k = 00100...00
 $$T[k]=P[k]−P[k−dk+1](dk=k\&−k,P=prefixsum)$$
 ## 2. 구간 합
 ### 2.1. prefix sum 구하기
-$$\begin{gathered}
+$$
+\begin{gathered}
 T[k]=P[k]−P[k−dk+1]\\
 T[k−dk]=P[k−dk]−P[k−dk−dk+1]
-\end{gathered}$$
+\end{gathered}
+$$
 따라서 $T[k]$는 $T[k-d]$와 구간이 겹치지 않는다. 이를 통해 아래와 같이 $P[k]$를 구할 수 있다.
 $$P[k]=T[k]+T[k−dk]+T[k−dk−dk−dk]...+T[1]+T[0]$$
 ### 2.2. 구간 합  구하기
