@@ -57,7 +57,7 @@ export default ((opts?: GraphOptions) => {
   function Graph({ fileData, displayClass, cfg }: QuartzComponentProps) {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
-    if (fileData.frontmatter.title=="index") {
+    if (fileData.frontmatter?.title=="index") {
       return null
     }
     return (
