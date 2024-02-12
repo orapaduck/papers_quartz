@@ -60,7 +60,7 @@ export default ((opts?: GraphOptions) => {
     if (fileData.frontmatter?.title=="index") {
       return (
         <div class={classNames(displayClass, "graph")}>
-          <h3>{i18n(cfg.locale).components.graph.title}</h3>
+          <h3>A Visual Journey</h3>
           <div class="graph-outer">
             <div id="graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
           </div>
