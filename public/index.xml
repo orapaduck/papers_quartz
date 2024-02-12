@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 My Second Brain</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on 🪴 My Second Brain</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Upgrading Quartz</title>
+    <link>https://quartz.jzhao.xyz/upgrading</link>
+    <guid>https://quartz.jzhao.xyz/upgrading</guid>
+    <description> Note This is specifically a guide for upgrading Quartz 4 version to a more recent update. If you are coming from Quartz 3, check out the migration guide for more info.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Components</title>
+    <link>https://quartz.jzhao.xyz/tags/component</link>
+    <guid>https://quartz.jzhao.xyz/tags/component</guid>
+    <description>Want to create your own custom component? Check out the advanced guide on creating components for more information.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Quartz Showcase</title>
+    <link>https://quartz.jzhao.xyz/showcase</link>
+    <guid>https://quartz.jzhao.xyz/showcase</guid>
+    <description>Want to see what Quartz can do? Here are some cool community gardens: Quartz Documentation (this site!) Jacky Zhao’s Garden Socratica Toolbox oldwinter の数字花园 Aaron Pham’s Garden The Quantum Garden Abhijeet’s Math Wiki Matt Dunn’s Second Brain Pelayo Arbues’ Notes Vince Imbat’s Talahardin 🧠🌳 Chad’s Mind Garden Pedro MC Fernandes’s Topo da Mente Mau Camargo’s Notkesto Caicai’s Novels 🌊 Collapsed Wave Sideny’s 3D Artist’s Handbook Mike’s AI Garden 🤖🪴 Brandon Boswell’s Garden Scaling Synthesis - A hypertext research notebook Data Dictionary 🧠 sspaeti.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Philosophy of Quartz</title>
+    <link>https://quartz.jzhao.xyz/philosophy</link>
+    <guid>https://quartz.jzhao.xyz/philosophy</guid>
+    <description>A garden should be a true hypertext The garden is the web as topology. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Setting up your GitHub repository</title>
+    <link>https://quartz.jzhao.xyz/setting-up-your-GitHub-repository</link>
+    <guid>https://quartz.jzhao.xyz/setting-up-your-GitHub-repository</guid>
+    <description>First, make sure you have Quartz cloned and setup locally. Then, create a new repository on GitHub.com. Do not initialize the new repository with README, license, or gitignore files.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Migrating from Quartz 3</title>
+    <link>https://quartz.jzhao.xyz/migrating-from-Quartz-3</link>
+    <guid>https://quartz.jzhao.xyz/migrating-from-Quartz-3</guid>
+    <description>As you already have Quartz locally, you don’t need to fork or clone it again. Simply just checkout the alpha branch, install the dependencies, and import your old vault.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Layout</title>
+    <link>https://quartz.jzhao.xyz/layout</link>
+    <guid>https://quartz.jzhao.xyz/layout</guid>
+    <description>Certain emitters may also output HTML files. To enable easy customization, these emitters allow you to fully rearrange the layout of the page. The default page layouts can be found in quartz.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Welcome to Quartz 4</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are already using Quartz to publish personal notes, websites, and digital gardens to the web.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Hosting</title>
+    <link>https://quartz.jzhao.xyz/hosting</link>
+    <guid>https://quartz.jzhao.xyz/hosting</guid>
+    <description>Quartz effectively turns your Markdown files and other resources into a bundle of HTML, JS, and CSS files (a website!). However, if you’d like to publish your site to the world, you need a way to host it online.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item><item>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/features/wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/features/wikilinks</guid>
+    <description>Wikilinks were pioneered by earlier internet wikis to make it easier to write links across pages without needing to write Markdown or HTML links each time.</description>
+    <pubDate>Mon, 12 Feb 2024 04:47:10 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
