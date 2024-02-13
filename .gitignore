@@ -9,5 +9,5 @@ private/
 .replit
 replit.nix
 public/*
-content/개인연구
+content/개인연구/private
 content/Templates
