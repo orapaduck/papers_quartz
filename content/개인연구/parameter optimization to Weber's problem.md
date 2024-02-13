@@ -1,8 +1,4 @@
-기하 중앙값
-주어진 점들에 대해서 유클리디안 거리의 합이 최소가 되는 지점
-
-오목 함수
-한 점이 주어질 때 점의 위치에 따른 거리가 오목 함수이고 오목 함수의 합은 오목 함수 이므로 optimization이 매우 간단하다.
+기하 중앙값이란 주어진 점들에 대해서 유클리디안 거리의 합이 최소가 되는 지점을 말한다. Weber's problem은 이러한 기하 중앙값을 찾는 방법에 관한 문제로 한 점이 주어질 때 점의 위치에 따른 거리가 오목 함수이고 오목 함수의 합은 오목 함수 이므로 optimization이 매우 간단하다.
 
 single layer perceptron으로 이루어진 model이 있다.각 데이터에 대해 overfitted model이 있을 때, 이 model의 parameter $W, b$를 해당 데이터에 대한 일종의 representation으로 생각해보자. 각 데이터 $D_{i}$에 대한 prediction error를 최소화하는 parameter를 $W_{i}, b_{i}$이라고 하자. 전체 데이터를 학습시킨 모델의 parameter를 $W_{model}, b_{model}$라고 할 때, model이 가지는 error는 $\sum{|W_{i}-W_{model}|}$, $\sum{|b_{i}-b_{model}|}$ 각각에 대해 단조 증가 함수이다. 물론 activation function에 따른 차이가 있겠지만, 적어도 감소하진 않는다(예를 들어, ReLU에서는 입력이 일정 값 이하이면 기울기가 0이 된다). 
 
