@@ -35,9 +35,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.DesktopOnly(Component.Darkmode()),
     Component.RecentNotes()
-  ],
-  afterBody: [
-    Component.RecentNotes()
   ]
 }
 
@@ -51,6 +48,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
-  afterBody: []
+  right: []
 }
