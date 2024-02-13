@@ -15,3 +15,12 @@ e_{i}&=u_{i}/||u_{i}||
 \end{align}
 $$
 위와 같이 직교 벡터들을 정규화하면, 벡터 공간의 정규 직교 기저가 된다. 즉, 주어진 벡터들이 span하는 공간의 정규 직교 기저를 얻을 수 있다.
+
+$\mathrm{A}x=\mathrm{b}$ 꼴의 least squared 문제에서 직교 행렬의 성질을 이용하여 다음과 같이 활용할 수 있다.
+$$
+\begin{align}
+\mathrm{A}\hat{x}&=\mathrm{B} \\
+\mathrm{A^{T}A}\hat{x}&=\mathrm{A^{T} B} \\
+\hat{x}&=\mathrm{A^T}B 
+\end{align}
+$$

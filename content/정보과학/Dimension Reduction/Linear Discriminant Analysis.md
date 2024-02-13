@@ -27,8 +27,6 @@ $$
 \end{gathered}
 $$
 최대화를 위해 목적함수 J(w)를 미분하여 0이 되는 지점을 찾으면 다음과 같은 식을 얻을 수 있다.
-
-이를 목적함수 J로 나타내면
-
-이를 통해 우리가 찾고자 하는 벡터 w는 ![](file:///C:\Users\jihun\AppData\Local\Temp\DRW000055b43f05.gif) 의 고유벡터임을 알 수 있다. 따라서 해당 고유벡터를 찾는다면 차원축소를 위해 찾고자 했던 Projection vector w를 찾을 수 있다.
-https://direction-f.tistory.com/82
+$$
+\mathrm{}
+$$
