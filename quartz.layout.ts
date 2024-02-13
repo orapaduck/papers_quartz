@@ -9,7 +9,6 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "Github" : "https://github.com/cld338/",
       "Tistory": "https://cloudier.tistory.com/",
-      "[![Netlify Status](https://api.netlify.com/api/v1/badges/b3830ff0-1ccc-4961-b62b-51c8d31a98e8/deploy-status)]": "https://cloudier.netlify.app/"
     },
   }),
 }
