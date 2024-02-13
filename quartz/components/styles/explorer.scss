@@ -48,7 +48,9 @@ button#explorer {
   max-height: none;
   transition: max-height 0.35s ease;
   margin-top: 0.5rem;
-
+  .explorer-content::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+  }
   &.collapsed > .overflow::after {
     opacity: 0;
   }
