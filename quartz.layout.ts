@@ -35,6 +35,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.DesktopOnly(Component.Darkmode())
   ],
+  afterBody: [
+    Component.RecentNotes()
+  ]
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
