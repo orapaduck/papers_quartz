@@ -155,17 +155,17 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 
 /* 스크롤 바 트랙(바탕) 스타일 */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--light);
   border-radius: 10px;
 }
 
 /* 스크롤 핸들(바) 스타일 */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: var(--lightgray);
   border-radius: 10px;
 }
 
 /* 스크롤 핸들(바)을 호버할 때 스타일 */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--gray);
 }
