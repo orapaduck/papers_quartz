@@ -8,6 +8,6 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-public
+public/*
 content/개인연구
 content/Templates

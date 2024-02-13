@@ -8,9 +8,6 @@
     <loc>https://cloudier.netlify.app/K-means-Clustering</loc>
     <lastmod>2024-02-11T22:00:21.824Z</lastmod>
   </url><url>
-    <loc>https://cloudier.netlify.app/Manim/%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8</loc>
-    <lastmod>2024-02-11T22:00:21.847Z</lastmod>
-  </url><url>
     <loc>https://cloudier.netlify.app/Manim/%EC%82%AC%EC%9A%A9%EB%B2%95</loc>
     <lastmod>2024-02-11T22:00:21.849Z</lastmod>
   </url><url>
@@ -18,7 +15,7 @@
     <lastmod>2024-02-11T22:00:21.834Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/Templates/model</loc>
-    <lastmod>2024-02-11T22:00:21.870Z</lastmod>
+    <lastmod>2024-02-13T01:53:18.931Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/Words</loc>
     <lastmod>2024-02-11T22:00:21.838Z</lastmod>
@@ -27,13 +24,16 @@
     <lastmod>2024-02-12T02:44:52.459Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/Scanner-CNN</loc>
-    <lastmod>2024-02-11T22:00:21.883Z</lastmod>
+    <lastmod>2024-02-13T01:53:18.939Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/parameter-optimization-to-Weber's-problem</loc>
-    <lastmod>2024-02-11T22:00:21.880Z</lastmod>
+    <lastmod>2024-02-13T01:53:18.937Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/%EA%B2%8C%EC%9E%84/%EB%AC%B4%EC%A0%9C-%ED%8C%8C%EC%9D%BC</loc>
+    <lastmod>2024-02-13T01:53:18.946Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/%EA%B0%9C%EC%9D%B8%EC%97%B0%EA%B5%AC/%EC%A3%BC%EC%A0%9C</loc>
-    <lastmod>2024-02-11T22:00:21.885Z</lastmod>
+    <lastmod>2024-02-13T01:53:18.941Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/%EB%AC%B4%EC%A0%9C-%ED%8C%8C%EC%9D%BC</loc>
     <lastmod>2024-02-12T04:03:29.620Z</lastmod>
@@ -325,6 +325,9 @@
   </url><url>
     <loc>https://cloudier.netlify.app/%EC%A0%95%EB%B3%B4%EA%B3%BC%ED%95%99/Pre-Processing/Whitening-Transform</loc>
     <lastmod>2024-02-11T22:00:21.740Z</lastmod>
+  </url><url>
+    <loc>https://cloudier.netlify.app/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/Manim/%EC%82%AC%EC%9A%A9%EB%B2%95</loc>
+    <lastmod>2024-02-13T02:36:01.718Z</lastmod>
   </url><url>
     <loc>https://cloudier.netlify.app/%ED%99%94%ED%95%99/Conjugation</loc>
     <lastmod>2024-02-11T22:00:21.808Z</lastmod>

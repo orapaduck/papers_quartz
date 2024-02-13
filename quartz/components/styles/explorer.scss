@@ -149,23 +149,23 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 
 
 /* 스크롤 바 전체 스타일 */
-#exploler-ul.overflow::-webkit-scrollbar {
+ul::-webkit-scrollbar {
   width: 10px;
 }
 
 /* 스크롤 바 트랙(바탕) 스타일 */
-#exploler-ul.overflow::-webkit-scrollbar-track {
+ul::-webkit-scrollbar-track {
   background: var(--light);
   border-radius: 10px;
 }
 
 /* 스크롤 핸들(바) 스타일 */
-#exploler-ul.overflow::-webkit-scrollbar-thumb {
+ul::-webkit-scrollbar-thumb {
   background: var(--lightgray);
   border-radius: 10px;
 }
 
 /* 스크롤 핸들(바)을 호버할 때 스타일 */
-#exploler-ul.overflow::-webkit-scrollbar-thumb:hover {
+ul::-webkit-scrollbar-thumb:hover {
   background: var(--gray);
 }
