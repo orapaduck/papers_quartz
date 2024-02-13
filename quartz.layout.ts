@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.DesktopOnly(Component.Darkmode())
+    Component.DesktopOnly(Component.Darkmode()),
     Component.RecentNotes()
   ],
   afterBody: [
