@@ -14,9 +14,9 @@ export default ((opts?: Options) => {
     const notes = Component.RecentNotes()
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <hr/>
-        {notes}
-        asdf
+        <ul>
+          {notes}
+        </ul>
         <hr/>
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
