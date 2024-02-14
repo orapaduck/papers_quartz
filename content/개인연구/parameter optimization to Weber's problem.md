@@ -20,6 +20,7 @@ RMSE_{k} =& \sum_{i=1}^m\sqrt{\frac{1}{||x_{i}-y_{k}||+\epsilon}\cdot{\frac{1}{n
 y_{k+1}=&\frac{RMSE_{k} \cdot x}{||RMSE_{k}||}
 \end{align}
 $$
+---
 앞에서, parameter에 따른 error가 단조 증가 함수라고 서술하였다. 이 때문에 발생하는 몇 가지 문제가 있다. ReLU를 예로 들어보면, <font color="#ff0000">입력 값이 일정 이하일 때 0을 반환하기 때문에, error가 동일한 구간이 생기게 된다. </font>
 
 정리해보면, 각 데이터에 대해 error가 동일한 subspace와의 거리가 최소가 되는 지점이 전체 데이터에 대한 global optima일 것이다.
