@@ -24,9 +24,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
   function FolderContent(props: QuartzComponentProps) {
     const { tree, fileData, allFiles, cfg } = props
-    const folderSlug = stripSlashes(simplifySlug(fileData.slug!))
+    const folderSlug = stripSlashes((fileData.slug!))
     const allPagesInFolder = allFiles.filter((file) => {
-      const fileSlug = stripSlashes(simplifySlug(file.slug!))
+      const fileSlug = stripSlashes((file.slug!))
       const prefixed = fileSlug.startsWith(folderSlug) //  && fileSlug !== folderSlug
       const folderParts = folderSlug.split(path.posix.sep)
       const fileParts = fileSlug.split(path.posix.sep)
