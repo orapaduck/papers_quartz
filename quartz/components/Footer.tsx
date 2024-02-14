@@ -2,7 +2,7 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
-
+import * as Component from "../components"
 interface Options {
   links: Record<string, string>
 }
@@ -11,9 +11,11 @@ export default ((opts?: Options) => {
   function Footer({ displayClass, cfg }: QuartzComponentProps) {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    const notes = Component.DesktopOnly(Component.RecentNotes())
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <hr />
+        <hr/>
+        {notes}
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
