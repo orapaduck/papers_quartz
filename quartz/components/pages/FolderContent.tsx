@@ -25,20 +25,22 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   function FolderContent(props: QuartzComponentProps) {
     const { tree, fileData, allFiles, cfg } = props
     const folderSlug = stripSlashes(simplifySlug(fileData.slug!))
-    const allPagesInFolder = allFiles.filter((file) => {
+    const allItemsInFolder = allFiles.filter((file) => {
       const fileSlug = stripSlashes(simplifySlug(file.slug!))
-      const prefixed = fileSlug.startsWith(folderSlug) && fileSlug !== folderSlug
+      const prefixed = fileSlug.startsWith(folderSlug)
       const folderParts = folderSlug.split(path.posix.sep)
       const fileParts = fileSlug.split(path.posix.sep)
       const isDirectChild = fileParts.length === folderParts.length + 1
-      // return prefixed && isDirectChild
-      return isDirectChild
+      return prefixed && (isDirectChild || fileParts.length === folderParts.length)
     })
+    const foldersInFolder = allItemsInFolder.filter((item) => item.isDirectory) // 가정: 'isDirectory' 속성이 폴더 여부를 나타냅니다.
+    const filesInFolder = allItemsInFolder.filter((item) => !item.isDirectory)
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = ["popover-hint", ...cssClasses].join(" ")
     const listProps = {
       ...props,
-      allFiles: allPagesInFolder,
+      allFiles: filesInFolder,
+      allFolders: foldersInFolder, // 폴더 목록 추가
     }
 
     const content =
@@ -55,11 +57,12 @@ export default ((opts?: Partial<FolderContentOptions>) => {
           {options.showFolderCount && (
             <p>
               {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
-                count: allPagesInFolder.length,
+                count: allItemsInFolder.length, // 파일과 폴더의 총 수
               })}
             </p>
           )}
           <div>
+            {/* 여기에 폴더와 파일 목록을 렌더링하는 로직 추가 */}
             <PageList {...listProps} />
           </div>
         </div>
