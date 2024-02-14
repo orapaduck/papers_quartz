@@ -11,11 +11,13 @@ export default ((opts?: Options) => {
   function Footer({ displayClass, cfg }: QuartzComponentProps) {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
-    const notes = Component.DesktopOnly(Component.RecentNotes())
+    const notes = Component.RecentNotes()
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr/>
         {notes}
+        asdf
+        <hr/>
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
