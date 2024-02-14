@@ -31,7 +31,8 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       const folderParts = folderSlug.split(path.posix.sep)
       const fileParts = fileSlug.split(path.posix.sep)
       const isDirectChild = fileParts.length === folderParts.length + 1
-      return prefixed && isDirectChild
+      // return prefixed && isDirectChild
+      return isDirectChild
     })
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = ["popover-hint", ...cssClasses].join(" ")
