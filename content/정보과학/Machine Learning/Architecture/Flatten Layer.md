@@ -1,1 +1,0 @@
-[[Convolutional Layer]]에서 사용되는 feature map 등의 2D, 3D 데이터를 하여 [[Fully Connected Layer]] 등에서 다룰 수 있도록 1D vector로 변환한다.

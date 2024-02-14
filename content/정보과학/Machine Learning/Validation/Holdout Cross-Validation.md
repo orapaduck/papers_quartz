@@ -1,1 +1,0 @@
-dataset을 train과 test로 나눈 뒤 각각 모델 훈련과 일반화 검증을 위해 사용한다. 모델 선택에 holdout을 사용하는 가장 좋은 방법은 train, test, validation 세 가지로 나눈 뒤 모델 학습 과정에서는 train 및 validation dataset을 사용하고 test dataset을 통해 일반화 검증을 수행한다.
