@@ -60,7 +60,7 @@ export interface FullPageLayout {
   pageBody: QuartzComponent
   left: QuartzComponent[]
   right: QuartzComponent[]
-  footer: QuartzComponent
+  footer: QuartzComponent[]
 }
 
 export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
