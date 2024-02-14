@@ -6,4 +6,11 @@ tags:
 $$
 f(x)=Ax+b
 $$
+[[Augmented Matrix]]를 이용하면 행렬 곱셈을 통해 선형 변환과 평행 이동을 모두 표현할 수 있다.
+$$
+\begin{pmatrix} A_{11}&A_{12}&b_{1}\\A_{21}&A_{22}&b_{2}\\0&0&1\end{pmatrix}
+\begin{pmatrix}x\\y\\1\end{pmatrix}=
+\begin{pmatrix}A_{11}x+A_{12}y\\A_{21}x+A_{22}y\\1\end{pmatrix}=
+\begin{pmatrix}x'\\y'\\1\end{pmatrix}
+$$
 [[Feed-Forward Network]]에서 weight와 bias에 의한 연산을 하나의 affine transformation으로 표현 가능하다.
