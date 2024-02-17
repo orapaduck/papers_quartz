@@ -1,0 +1,1 @@
+고정된 크기의 데이터셋이 차원이 늘어남에 따라 특성 공간이 희소해지는 현상이다. [[Decision Tree]]나 [[K-Nearest Neighbor]]와 같은 모델에서는 [[Regularization]]을 적용하기 어렵기 때문에 특성 선택과 [[Principal Component Analysis]]와 같은 차원 축소 기법을 주로 사용한다.
