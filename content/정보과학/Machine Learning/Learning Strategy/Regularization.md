@@ -9,7 +9,7 @@ F(x) &= \sigma(w*\gamma x + b)
 $$
 Dropout Net은 일반적인 Neural Network와 동일한 방식으로 학습할 수 있으며 단지 [[Batch#Mini-Batch|Mini-Batch]]를 사용한 학습 과정에서 일부 node를 dropout하여 나타난 network를 학습시킨다는 차이가 있다.
 ## Label Smoothing
-[[Word Embedding#One-Hot Enoding|One-Hot Encoding]]의 경우 하나의 값만 1이고 나머지는 0으로 나타내는데, 이를 조금이나마 부드럽게 만드는 것을 label smoothing이라고 한다. $K$개의 class에 대해서 $i$번째 차원에 대한 smoothing vector의 값은 다음과 같다.
+[[One-Hot Encoding#One-Hot Enoding|One-Hot Encoding]]의 경우 하나의 값만 1이고 나머지는 0으로 나타내는데, 이를 조금이나마 부드럽게 만드는 것을 label smoothing이라고 한다. $K$개의 class에 대해서 $i$번째 차원에 대한 smoothing vector의 값은 다음과 같다.
 $$
 y_{i}^{LS}=y_{i}(1-\alpha) + \frac{\alpha}{K}
 $$
