@@ -23,10 +23,8 @@ $$
 $$
 \begin{align}
 \int_{0}^{h} f(t+x_{i})  \, dx &= [f(t+x_{i})\cdot(t+A)]_{0}^h \\
-&- \left[ f'(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \right]_{0}^{h}+\int_{0}^{h} f''(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \, dt
+&- \left[ f'(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \right]_{0}^{h}+\int_{0}^{h} f''(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \, dt\tag{4}
 \end{align}
-
-\tag{4}
 $$
 
 위 식을 간단히 하기 위해 $F_{i}=\hat{F_{i}}-E_{i}$라고 생각해보자. $\hat{F_{i}}=\frac{(x_{i+1}-x_{i})(f(x_{i+1})-f(x_{i}))}{2}$ 이므로, 우변의 첫 항을 $\hat{F_{i}}$, 나머지 항을 오차 $E_{i}$라고 생각할 수 있다. 
@@ -36,8 +34,8 @@ $$
 \begin{align}
 [f(t+x_{i})\cdot(t+A)]_{0}^h&=f(h+x_{i})\cdot(h+A)-f(x_{i})\cdot A \\
 &=(h+A)\cdot f(x_{i+1})-A\cdot f(x_{i}) \\
-A&=-\frac{h}{2}\tag{5}
-\end{align}
+A&=-\frac{h}{2}
+\end{align}\tag{5}
 $$
 
 둘째 항을 간단히 하기 위해 $B=-\frac{h^{2}}{8}$이라고 두면
