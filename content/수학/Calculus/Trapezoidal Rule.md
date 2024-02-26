@@ -21,7 +21,11 @@ $$
 
 다시 (2)에 의해
 $$
-\int_{0}^{h} f(t+x_{i})  \, dx = [f(t+x_{i})\cdot(t+A)]_{0}^h-\left[ f'(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \right]_{0}^{h}+\int_{0}^{h} f''(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \, dt
+\begin{align}
+\int_{0}^{h} f(t+x_{i})  \, dx &= [f(t+x_{i})\cdot(t+A)]_{0}^h \\
+&- \left[ f'(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \right]_{0}^{h}+\int_{0}^{h} f''(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \, dt
+\end{align}
+
 \tag{4}
 $$
 
@@ -52,7 +56,7 @@ $$
 \begin{align}
 |E_{i}|&=|\int_{0}^{h} f''(t+x_{i})\cdot\left( \frac{(t+A)^2}{2}+B \right) \, dt| \\
 &\leq\int_{0}^{h}|f''(t+x_{i})|\cdot\left| \frac{(t+A)^2}{2}+B \right|\, dt
-\end{align}
+\end{align}\tag{8}
 $$
 
 각 구간에서 $f''$의 최댓값을 $M_{i}$이라고 하면
@@ -62,7 +66,7 @@ $$
 &=M_{i}\int_{0}^{h} \left| \frac{\left( t+\frac{h}{2} \right)^2}{2}-\frac{h^{2}}{8} \right|\, dt  \\
 &=M_{i}\int_{0}^{h} \frac{h^{2}}{8}-\frac{\left( t+\frac{h}{2} \right)^2}{2} \, dt \\
 &=M_{i}\frac{h^{3}}{12}
-\end{align}
+\end{align}\tag{9}
 $$
 
 전체 구간에서 오차는
@@ -71,12 +75,12 @@ $$
 E_{t}&=\sum_{i=0}^{n-1}E_{i} \\
 &\leq\frac{h^{3}}{12}\sum_{i=0}^{n-1}M_{i}\\
 &=\frac{(b-a)^{3}}{12n^3}\sum_{i=0}^{n-1}M_{i}
-\end{align}
+\end{align}\tag{10}
 $$
 
 구간 $[a,b]$에서 $f''$의 최댓값을 $M_{t}$로 두면
 $$
-E_{t}\leq\frac{(b-a)^{3}}{12n^3}\cdot nM_{t}=\frac{(b-a)^{3}}{12n^{2}}M
+E_{t}\leq\frac{(b-a)^{3}}{12n^3}\cdot nM_{t}=\frac{(b-a)^{3}}{12n^{2}}M\tag{11}
 $$
 
 따라서 오차는 $n^2$에 반비례한다.
