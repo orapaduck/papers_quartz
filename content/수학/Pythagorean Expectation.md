@@ -6,6 +6,6 @@ $W$와 $L$은 각각 득점과 실점이며 $n$은 종목이나 팀에 따라 �
 $$
 \begin{align}
 R&=winrate \\
-n&=\underset{n}{\operatorname{argmin}}{P(n)}
+n&=\underset{n}{\operatorname{argmin}}{(R-P(n))^2}
 \end{align}
 $$
