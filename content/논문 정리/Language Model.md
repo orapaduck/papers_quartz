@@ -1,4 +1,5 @@
 
+
 ## Tokenization
 ## Embedding
 내게 주어진 자료(텍스트, 이미지) 등이 무엇을 나타내고 있는 가를 벡터로써 표현한다.
@@ -14,6 +15,7 @@ attention은 결국 context token의 정보에 가중치를 구하는 것. 이�
 -> attention의 크기가 모델이 다루는 시퀀스의 크기가 증가할 수록 따라서 증가한다.
 
 Jin, Zhiyu, et al. "Training-free diffusion model adaptation for variable-sized text-to-image synthesis." Advances in Neural Information Processing Systems_ 36 (2024).
+
 
 ## Prediction
 ### Explaning How Transformer Use Context to Build Predictions
