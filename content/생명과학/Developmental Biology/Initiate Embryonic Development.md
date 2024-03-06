@@ -17,7 +17,7 @@ external fertilization을 하기 때문에 발생 과정을 관찰하기 쉬워 
 10. 전위차가 감소해 약 1분간 fast polyspermy block이 일어난다.
 ### 1.3. Cortical Reaction
 ![[Sea-urchin_Cortical_Reaction.png|400]]
-1. sperm이 egg에 결합하여 cortical granules가 egg의 plasma membrane과 융합된다.
+1. sperm이 egg에 결합하여 egg 내부의 cortical granules가 egg의 plasma membrane과 융합된다.
 2. cortical granules에 들어있던 물질들이 방출되어 egg plasma membrane과 vitelline layer 사이로 방출된다.
 3. cortical granules에서 방출된 물질들이 vitelline envelope에 결합하여 fertilization envelope을 형성한다.
 4. fertilization layer가 다른 sperm의 acrosomal process가 egg cell membrane에 융합하는 것을 방지한다.
