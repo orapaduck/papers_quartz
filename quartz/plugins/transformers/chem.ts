@@ -6,7 +6,7 @@ export const ChemDrawSmiles: QuartzTransformerPlugin<{}> = () => {
     externalResources() {
         return {
         css: [
-            
+          "https://unpkg.com/smiles-drawer@1.2.0/dist/smiles-drawer.min.css",
         ],
         js: [
             {
