@@ -31,5 +31,7 @@ $9 \times 4$개의 $1 \times 1$ kernel로 구성된 layer로, 해당 anchor box�
 [[Fast R-CNN#1.3. RoI Pooling|RoI Pooling]]을 통해 전달 받은 RPN에 의해 predict된  bounding box와 conv feature map을 활용하여 classification 및 bbox regression을 수행한다.
 ## 2. Training
 
+
+![[faster_r_cnn.ipynb]]
 ## Reference
 [1] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." _Advances in neural information processing systems_ 28 (2015).
