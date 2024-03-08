@@ -1,7 +1,7 @@
 import { QuartzTransformerPlugin } from "../types";
 import { visit } from "unist-util-visit";
 import { Root } from "hast";
-import SmilesRenderer from 'smiles-render'; // Hypothetical library for rendering SMILES
+import SmilesRenderer from 'smiles-drawer'; // Hypothetical library for rendering SMILES
 
 interface Options {
   renderSmiles: boolean;
