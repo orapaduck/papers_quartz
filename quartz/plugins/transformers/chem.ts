@@ -1,6 +1,7 @@
 import { QuartzTransformerPlugin } from "../types";
 import { Molecule } from 'openchemlib';
 import { visit } from "unist-util-visit"
+
 export const SmilesRenderer: QuartzTransformerPlugin = () => {
   return {
     name: "SmilesRenderer",
