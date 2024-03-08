@@ -1,9 +1,9 @@
 import { QuartzTransformerPlugin } from "../types"
 import SmilesDrawer from 'smiles-drawer';
 
-export const TextTransforms: QuartzTransformerPlugin = () => {
+export const RenderSmiles: QuartzTransformerPlugin = () => {
   return {
-    name: "TextTransforms",
+    name: "RenderSmiles",
     markdownPlugins() {
       return [() => {
         return (tree, file) => {
