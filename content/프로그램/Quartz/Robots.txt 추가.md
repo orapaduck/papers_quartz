@@ -1,5 +1,5 @@
 quartz > plugins > emitters > contentIndex.ts
-```
+```Typescript
 interface Options {
   enableSiteMap: boolean
   enableRSS: boolean
@@ -18,7 +18,7 @@ const defaultOptions: Options = {
 }
 ```
 
-```
+```Typescript
 export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
   opts = { ...defaultOptions, ...opts }
   return {
@@ -121,14 +121,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 ```
 
 quartz.comfig.ts
-```
+```Typescript
 Plugin.ContentIndex({
-
         enableSiteMap: true,
-
         enableRSS: true,
-
         enableRobots: true,
-
       }),
 ```

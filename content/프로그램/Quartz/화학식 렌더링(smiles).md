@@ -1,9 +1,36 @@
 npm install openchemlib --save
 
-quartz > plugins > transformers에 
+quartz > plugins > transformers에 chem.ts 추가
+index.ts에 SmilesRenderer 추가 및 quartz.config.ts > QuartzConfig > plugins > transformers에 SmilesRenderer 추가
+```Typescript:chem.ts
+import { QuartzTransformerPlugin } from "../types";
+import { Molecule } from 'openchemlib';
+import { visit } from "unist-util-visit"
 
-````smiles
-OC1=CC=C(CC2N(CCC3=CC(OC)=C(C(OC4=CC5=C(C=C4OC)CCN(C)C5C6)=C23)OC)C)C=C1OC7=CC=C6C=C7
-````
+export const SmilesRenderer: QuartzTransformerPlugin = () => {
+  return {
+    name: "SmilesRenderer",
+    markdownPlugins() {
+      return [
+        () => {
+          return (tree, file) => {
+            visit(tree, 'code', (node) => {
+              if (node.lang === 'smiles') {
+                const smiles = node.value;
+                const molecule = Molecule.fromSmiles(smiles);
+                const svg = molecule.toSVG(300, 300);
+                node.type = 'html';
+                node.value = `<div class="smiles-container">${svg}</div>`;
+              }
+            });
+          }
+        }
+      ];
+    },
+  };
+}
+```
 
-
+```smiles
+c(c1)ccc(c1)
+```
