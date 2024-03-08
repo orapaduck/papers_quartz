@@ -1,39 +1,43 @@
-import { QuartzTransformerPlugin } from "../types"
-import SmilesDrawer from 'smiles-drawer';
+import { QuartzTransformerPlugin } from "quartz/types";
+import OCL from "openchemlib";
 
-export const RenderSmiles: QuartzTransformerPlugin = () => {
+export const SmilesRenderer: QuartzTransformerPlugin = () => {
   return {
-    name: "RenderSmiles",
+    name: "SmilesRenderer",
     markdownPlugins() {
       return [() => {
         return (tree, file) => {
-          // ... existing code ...
-
-          // Add a transformation for SMILES chemical formulas
-          // Assuming the formula is enclosed in special markers, e.g., `SMILES[...formula...]`
-          findAndReplace(tree, /SMILES\[(.+)\]/, (_value: string, ...capture: string[]) => {
-            const [smiles] = capture;
-            const canvas = document.createElement('canvas');
-            
-            // Create a SmilesDrawer instance
-            let smilesDrawer = new SmilesDrawer.Drawer({ width: 300, height: 200 });
-
-            // Draw the molecule
-            SmilesDrawer.parse(smiles, (tree) => {
-              smilesDrawer.draw(tree, canvas, 'light', false);
-            }, () => console.error('Invalid SMILES formula'));
-
-            // Return the canvas as an image node
-            return {
-              type: "image",
-              title: 'SMILES Formula',
-              url: canvas.toDataURL()
-            };
+          // Traverse the Markdown AST (Abstract Syntax Tree)
+          visit(tree, "code", node => {
+            // Check if the code block is for SMILES
+            if (node.lang === "smiles") {
+              try {
+                const molecule = OCL.Molecule.fromSmiles(node.value.trim());
+                // Render molecule and replace node.value with the rendered content
+                // For example, if you're rendering to an SVG or an image URL
+                node.value = renderMoleculeToSVG(molecule); // Implement this function based on how you want to render
+                node.type = "html"; // Change type to HTML to allow raw HTML rendering
+              } catch (error) {
+                console.error("Error rendering SMILES: ", error);
+                // Optionally handle errors, such as leaving the SMILES code as-is
+              }
+            }
           });
+        };
+      }];
+    },
+  };
+};
 
-          // ... existing code ...
-        }
-      }]
-    }
+function renderMoleculeToSVG(molecule: any): string {
+  // Implement this function to render the molecule as an SVG or an image URL
+  // This could involve converting the molecule to a graphical representation
+  return ''; // Placeholder - return the SVG or image URL
+}
+
+// Extend the Markdown AST node types to recognize the SMILES language
+declare module 'mdast' {
+  interface Code {
+    lang: 'smiles' | string;
   }
 }
