@@ -1,4 +1,7 @@
-quartz > plugins > emitters > contentIndex.ts
+1. quartz > plugins > emitters > contentIndex.ts 수정
+2. quartz.config.ts 수정
+
+**'contentIndex.ts'**
 ```Typescript
 interface Options {
   enableSiteMap: boolean
@@ -120,7 +123,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 }
 ```
 
-quartz.comfig.ts
+**'quartz.config.ts'**
 ```Typescript
 Plugin.ContentIndex({
         enableSiteMap: true,
