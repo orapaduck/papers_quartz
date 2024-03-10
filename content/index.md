@@ -1,11 +1,12 @@
 # Welcome to My Digital Garden 
 <p align="center" style="margin: 0;padding: 0;height: fit-content;">
-  <img src="/images/banner_erased.webp" alt="banner .invert-image" width="600" style="margin: 0;padding: 0">
+  <img src="/images/banner_erased.webp" alt="banner invert-image" width="600" style="margin: 0;padding: 0">
 </p>
 <style>
-.darkmode .invert-image {
-    filter: invert(1);
+#darkmode-toggle:checked ~ .invert-image {
+    filter: invert(100%);
 }
+
 </style>
 Hello and welcome to my digital garden! This is a space where ideas grow and flourish, much like plants in a garden. Here, you'll find a collection of thoughts, learnings, and musings across various topics that fascinate me.
 
