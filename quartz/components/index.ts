@@ -19,7 +19,7 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
-import PdfExporter from "./SavePDF"
+import downloadPDF from "./SavePDF"
 
 export {
   ArticleTitle,
@@ -43,5 +43,5 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  PdfExporter,
+  downloadPDF,
 }
