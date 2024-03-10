@@ -1,6 +1,6 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types";
 import style from "./styles/pdfExporter.scss";
-import { html2pdf } from 'html2pdf.js';
+import * as html2pdf from 'html2pdf.js';
 interface PdfExporterOptions {
   fileName: string;
 }
