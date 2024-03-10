@@ -1,9 +1,9 @@
 # Welcome to My Digital Garden 
 <p align="center" style="margin: 0;padding: 0;height: fit-content;">
-  <img src="/images/banner_erased.webp" alt="banner invert-image" width="600" style="margin: 0;padding: 0">
+  <img src="/images/banner_erased.webp" id=banner alt="banner" width="600" style="margin: 0;padding: 0">
 </p>
 <style>
-#darkmode-toggle:checked ~ .invert-image {
+#toggle-label-dark:checked #banner{
     filter: invert(100%);
 }
 
