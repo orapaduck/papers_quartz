@@ -3,7 +3,7 @@
   <img src="/images/banner_erased.webp" id=banner alt="banner" width="600" style="margin: 0;padding: 0">
 </p>
 <style>
-#toggle-label-dark:checked #banner{
+#toggle-label-dark #banner{
     filter: invert(100%);
 }
 
