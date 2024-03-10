@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.DesktopOnly(Component.Darkmode()),
-    Component.SaveAsPdf(),
+    Component.PdfExporter(),
   ]
 }
 
