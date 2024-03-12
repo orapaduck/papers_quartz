@@ -1,5 +1,5 @@
 import { QuartzTransformerPlugin } from "../types";
-import RDKit from 'rdkit'; // Assuming RDKit is available as an importable module
+import { Mol } from 'rdkit'; // Assuming RDKit is available as an importable module
 import { visit } from "unist-util-visit"
 
 export const RDKitRenderer: QuartzTransformerPlugin = () => {
@@ -12,7 +12,7 @@ export const RDKitRenderer: QuartzTransformerPlugin = () => {
             visit(tree, 'code', (node) => {
               if (node.lang === 'smiles') {
                 const smiles = node.value;
-                const molecule = RDKit.Mol.fromSmiles(smiles);
+                const molecule = Mol.fromSmiles(smiles);
 
                 if (molecule) {
                   const svg = molecule.get_svg(300, 300);
