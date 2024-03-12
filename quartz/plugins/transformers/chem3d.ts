@@ -15,7 +15,7 @@ export const RDKitRenderer: QuartzTransformerPlugin = () => {
                 const molecule = Mol.fromSmiles(smiles);
 
                 if (molecule) {
-                  const svg = molecule.get_svg(300, 300);
+                  const svg = molecule.generateSVG(300, 300);
                   node.type = 'html';
                   node.value = `<div class="smiles-container">${svg}</div>`;
                 } else {
