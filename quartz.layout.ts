@@ -6,11 +6,11 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
-  }),
+      links: {
+        "Github" : "https://github.com/cld338/",
+        "Tistory": "https://cloudier.tistory.com/",
+      },
+    })
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -25,14 +25,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
+    Component.MobileOnly(Component.Darkmode()),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-  ],
+    Component.DesktopOnly(Component.Darkmode()),
+  ]
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -45,5 +46,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
+  right: []
 }

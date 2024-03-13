@@ -3,14 +3,14 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🪴 My Second Brain",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "cloudier.netlify.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -52,6 +52,7 @@ const config: QuartzConfig = {
         // if you do rely on git for dates, ensure defaultDateType is 'modified'
         priority: ["frontmatter", "filesystem"],
       }),
+      Plugin.RDKitRenderer(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
@@ -70,6 +71,7 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        enableRobots: true,
       }),
       Plugin.Assets(),
       Plugin.Static(),
@@ -77,5 +79,4 @@ const config: QuartzConfig = {
     ],
   },
 }
-
-export default config
+export default config 

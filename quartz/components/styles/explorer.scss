@@ -146,3 +146,26 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   // remove default margin from li
   margin: 0;
 }
+
+
+/* 스크롤 바 전체 스타일 */
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 스크롤 바 트랙(바탕) 스타일 */
+ul::-webkit-scrollbar-track {
+  background: var(--light);
+  border-radius: 10px;
+}
+
+/* 스크롤 핸들(바) 스타일 */
+ul::-webkit-scrollbar-thumb {
+  background: var(--lightgray);
+  border-radius: 10px;
+}
+
+/* 스크롤 핸들(바)을 호버할 때 스타일 */
+ul::-webkit-scrollbar-thumb:hover {
+  background: var(--gray);
+}

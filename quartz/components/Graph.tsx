@@ -35,28 +35,39 @@ const defaultOptions: GraphOptions = {
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
   globalGraph: {
     drag: true,
     zoom: true,
     depth: -1,
-    scale: 0.9,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
+    scale: 0.7,
+    repelForce: 0.03,
+    centerForce: 1.0,
+    linkDistance: 100,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
 }
 
 export default ((opts?: GraphOptions) => {
-  function Graph({ displayClass, cfg }: QuartzComponentProps) {
+  function Graph({ fileData, displayClass, cfg }: QuartzComponentProps) {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+    if (fileData.frontmatter?.title=="index") {
+      return (
+        <div class={classNames(displayClass, "graph")}>
+          <h3>A Visual Journey</h3>
+          <div class="graph-outer">
+            <div id="graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
+          </div>
+        </div>
+      )
+
+    }
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>

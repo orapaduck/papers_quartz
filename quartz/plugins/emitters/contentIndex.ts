@@ -25,6 +25,7 @@ interface Options {
   enableRSS: boolean
   rssLimit?: number
   rssFullHtml: boolean
+  enableRobots: boolean
   includeEmptyFiles: boolean
 }
 
@@ -33,13 +34,14 @@ const defaultOptions: Options = {
   enableRSS: true,
   rssLimit: 10,
   rssFullHtml: false,
+  enableRobots: true,
   includeEmptyFiles: true,
 }
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
-  const base = cfg.baseUrl ?? ""
+  const base = (cfg.baseUrl ?? "").toLowerCase()
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
-    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
+    <loc>https://${joinSegments(base, encodeURI(slug).toLowerCase())}</loc>
     ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
   </url>`
   const urls = Array.from(idx)
@@ -49,12 +51,11 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
 }
 
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
-  const base = cfg.baseUrl ?? ""
-
+  const base = (cfg.baseUrl ?? "").toLowerCase()
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
     <title>${escapeHTML(content.title)}</title>
-    <link>https://${joinSegments(base, encodeURI(slug))}</link>
-    <guid>https://${joinSegments(base, encodeURI(slug))}</guid>
+    <link>https://${joinSegments(base, encodeURI(slug).toLowerCase())}</link>
+    <guid>https://${joinSegments(base, encodeURI(slug).toLowerCase())}</guid>
     <description>${content.richContent ?? content.description}</description>
     <pubDate>${content.date?.toUTCString()}</pubDate>
   </item>`
@@ -107,7 +108,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "sitemap.xml") as FilePath)
         }
         if (opts?.enableRSS) {
-          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "index.xml") as FilePath)
+          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "rss") as FilePath)
+        }
+        if (opts?.enableRobots) {
+          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "robots.txt") as FilePath)
         }
       }
 
@@ -151,8 +155,19 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           await write({
             ctx,
             content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
-            slug: "index" as FullSlug,
-            ext: ".xml",
+            slug: "rss" as FullSlug,
+            ext: "",
+          }),
+        )
+      }
+
+      if (opts?.enableRobots) {
+        emitted.push(
+          await write({
+            ctx,
+            content: "User-agent:*\nAllow: /",
+            slug: "robots" as FullSlug,
+            ext: ".txt",
           }),
         )
       }

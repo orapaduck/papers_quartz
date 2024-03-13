@@ -7,6 +7,9 @@ import { classNames } from "../util/lang"
 function Backlinks({ fileData, allFiles, displayClass, cfg }: QuartzComponentProps) {
   const slug = simplifySlug(fileData.slug!)
   const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+  if (fileData.frontmatter?.title=="index") {
+    return null
+  }
   return (
     <div class={classNames(displayClass, "backlinks")}>
       <h3>{i18n(cfg.locale).components.backlinks.title}</h3>
