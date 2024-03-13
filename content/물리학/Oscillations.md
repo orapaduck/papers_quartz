@@ -1,2 +1,0 @@
-## Transverse Wave
-## Longitidual Wave

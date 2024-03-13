@@ -1,5 +1,0 @@
-## Hydrocarbons
-### 
-```smiles
-CC
-```
